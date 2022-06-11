@@ -5,10 +5,10 @@ This is my own way of making myself accountable for the next 100 days of coding.
 This is my roadmap.
 
 ## Learn Data Structures and Algorithm
-[] Data Structures and Algorithms (Coding part and problem solving)
-[] System Design
-[] Operating System and DBMS (database management system)
-[] Object-Oriented Design
-[] Cultural Fit
+- Data Structures and Algorithms (Coding part and problem solving)
+- System Design
+- Operating System and DBMS (database management system)
+- Object-Oriented Design
+- Cultural Fit
 
 Inspired by [GeekForGeeks](https://www.geeksforgeeks.org/100-days-of-code-a-complete-guide-for-beginners-and-experienced/)
