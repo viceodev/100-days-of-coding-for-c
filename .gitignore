@@ -1,0 +1,5 @@
+/utilities
+/password_generator
+*.o
+*.out
+.vscode
