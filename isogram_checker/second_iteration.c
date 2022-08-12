@@ -38,16 +38,7 @@ bool is_isogram(const char phrase[]){
 
 
 int main() {
-    double time_spent = 0.0;
-    clock_t start = clock();
-
-    //bits to binary usage start
-    printf("%d\n", is_isogram("victor"));
-    
-    //bits to binary usage start
-
-    clock_t end = clock();
-    time_spent += (double)( end - start) / CLOCKS_PER_SEC ;
+    printf("is isogram: %d\n", is_isogram("victor"));
 
     return 0;
 }
