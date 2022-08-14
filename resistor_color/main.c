@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+/**
+ * Author: @viceodev [on all social media]
+ * Instruction: https://exercism.org/tracks/c/exercises/resistor-color
+ */
 
 typedef enum {
     BLACK,

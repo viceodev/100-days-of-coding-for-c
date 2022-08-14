@@ -3,6 +3,11 @@
 #include <string.h>
 #include <ctype.h>
 
+/**
+ * Author: @viceodev [on all social media]
+ * Instruction: https://exercism.org/tracks/c/exercises/isogram
+ */
+
 bool is_isogram( const char phrase[]){
     if(phrase == 0){
         return false;

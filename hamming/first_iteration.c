@@ -2,6 +2,12 @@
 
 //An algorithm that calculates the hamming difference between two strands of DNA
 
+/**
+ * Author: @viceodev [on all social media]
+ * Instruction: https://exercism.org/tracks/c/exercises/hamming
+ */
+
+
 int compute(const char *lhs, const char *rhs){
     int hamming_difference = 0;
 

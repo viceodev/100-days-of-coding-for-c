@@ -3,6 +3,11 @@
 #include <math.h>
 #include <stdlib.h>
 
+/**
+ * Author: @viceodev [on all social media]
+ * Instruction: https://exercism.org/tracks/c/exercises/armstrong-numbers
+ */
+
 
 int intLen(int integer){
     return ceil(log10(abs(integer)));
