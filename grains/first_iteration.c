@@ -1,44 +1,35 @@
 #include <stdio.h>
 #include <stdint.h>
 
-//unfinished
-uint64_t raise_to_two(int index){
-    if(index < 32){
-        return (1 << (index - 1));
-    }else if(index > 32 && index < 64){
-        int multiple = (index - 32);
-
-        return (1 << (multiple - 1)) * 2;
-    }else{
-        int multiple = index / 32;
-        printf("multiple %d", multiple);
-        return (1 << (multiple - 1)) * multiple * -1;
-    }
-}
+/**
+ * Author: @viceodev [on all social media]
+ * Instruction: https://exercism.org/tracks/c/exercises/grains
+ */
 
 uint64_t square(uint8_t  index){
-    if(index <= 0){
+
+    if(index <= 0 || index > 64){
         return 0;
     }
 
-
-    return raise_to_two(index);
+    return (1ull << (index - 1));
 }
 
-uint64_t total(){
-    uint64_t total = 0;
-
-    for(int i = 64; i > 0; i--){
-        // printf("total %d\n", (1 << (i - 1)));
-        total += (1 << (i - 1));
+uint64_t total(void){
+    unsigned long long total = 0;
+    int counter = 0;
+    
+    while(counter < 64){
+        total += (1ull << (counter - 1));
+        counter++;
     }
 
     return total;
 }
 
 int main(){
-    printf("%d\n", square(64));
-    printf("%d", total());
+    printf("%llu\n", square(35));
+    printf("%llu", total());
 
     return 0;
 }
