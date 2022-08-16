@@ -20,6 +20,10 @@ unsigned int square_of_sum(unsigned int number){
     return (counter * counter);
 }
 
+unsigned int difference_of_squares(unsigned int number){
+    return square_of_sum(number) - sum_of_squares(number);
+}
+
 int main (){
     printf("sum of squares %d", sum_of_squares(5));
     printf("square of sum %d", square_of_sum(5));
