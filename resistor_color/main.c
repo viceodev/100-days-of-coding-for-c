@@ -3,6 +3,7 @@
 /**
  * Author: @viceodev [on all social media]
  * Instruction: https://exercism.org/tracks/c/exercises/resistor-color
+ * Instruction Author: Exercism
  */
 
 typedef enum {

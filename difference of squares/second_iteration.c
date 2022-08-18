@@ -1,33 +1,20 @@
 #include <stdio.h>
 
-
 /**
  * Author: @viceodev [on all social media]
  * Instruction: https://exercism.org/tracks/c/exercises/grains
  * Instruction Author: Exercism
  */
 
-unsigned int sum_of_squares(unsigned int number){
-    unsigned int counter = 0;
-    
-    while(number){
-        counter += (number * number);
-        number--;
-    }
 
-    return counter;
+unsigned int sum_of_squares(unsigned int number){
+    unsigned int sum = (number * (number + 1) * ((number * 2) + 1)) / 6;
+    return sum;
 }
 
-
 unsigned int square_of_sum(unsigned int number){
-    unsigned int counter = 0;
-
-    while(number){
-        counter += number;
-        number--;
-    }
-
-    return (counter * counter);
+    unsigned int sum = (number * (number + 1)) / 2;
+    return sum * sum;
 }
 
 unsigned int difference_of_squares(unsigned int number){

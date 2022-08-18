@@ -7,6 +7,7 @@
 /**
  * Author: @viceodev [on all social media]
  * Instruction: https://exercism.org/tracks/c/exercises/isogram
+ * Instruction Author: Exercism
  */
 
 bool is_isogram(const char phrase[]){

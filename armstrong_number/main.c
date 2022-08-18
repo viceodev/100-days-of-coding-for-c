@@ -6,6 +6,7 @@
 /**
  * Author: @viceodev [on all social media]
  * Instruction: https://exercism.org/tracks/c/exercises/armstrong-numbers
+ * Instruction Author: Exercism
  */
 
 

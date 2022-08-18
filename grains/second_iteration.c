@@ -4,6 +4,7 @@
 /**
  * Author: @viceodev [on all social media]
  * Instruction: https://exercism.org/tracks/c/exercises/grains
+ * Instruction Author: Exercism
  */
 
 uint64_t square(uint8_t  index){

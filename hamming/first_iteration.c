@@ -5,6 +5,7 @@
 /**
  * Author: @viceodev [on all social media]
  * Instruction: https://exercism.org/tracks/c/exercises/hamming
+ * Instruction Author: Exercism
  */
 
 
