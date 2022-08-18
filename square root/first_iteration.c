@@ -1,5 +1,11 @@
 #include <stdio.h>
 
+/**
+ * Author: @viceodev [on all social media]
+ * Instruction: https://exercism.org/tracks/c/exercises/square-root
+ * Instruction Author: Exercism
+ */
+
 int square_root(int square){
     int sqrt =  square, start = 1, end = square;
 
